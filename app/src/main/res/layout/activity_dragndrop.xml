@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context=".dragndrop">
+
+    <RelativeLayout
+        android:layout_width="409dp"
+        android:layout_height="734dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <ImageView
+            android:id="@+id/quizz"
+            android:layout_width="wrap_content"
+            android:layout_height="393dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="42dp"
+            android:layout_marginBottom="323dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/imq_1" />
+
+        <TextView
+            android:id="@+id/ans"
+            android:layout_width="161sp"
+            android:layout_height="76sp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="124dp"
+            android:layout_marginTop="412dp"
+            android:layout_marginEnd="124dp"
+            android:layout_marginBottom="246dp"
+            android:background="@drawable/bt"
+            android:gravity="center"
+            android:scaleType="centerInside"
+            android:text="คำตอบ"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="150sp"
+            android:layout_height="49sp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="213dp"
+            android:layout_marginTop="646dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="39dp"
+            android:background="@drawable/bt"
+            android:gravity="center"
+            android:scaleType="centerInside"
+            android:text="score: 0"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/ansl"
+            android:layout_width="151sp"
+            android:layout_height="60sp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="522dp"
+            android:layout_marginEnd="216dp"
+            android:layout_marginBottom="152dp"
+            android:background="@drawable/bt"
+            android:gravity="center"
+            android:scaleType="centerInside"
+            android:text="TextView" />
+
+        ก
+
+        <Button
+            android:id="@+id/ansr"
+            android:layout_width="151sp"
+            android:layout_height="60sp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="205dp"
+            android:layout_marginTop="521dp"
+            android:layout_marginEnd="17dp"
+            android:layout_marginBottom="153dp"
+            android:background="@drawable/bt"
+            android:gravity="center"
+            android:scaleType="centerInside"
+            android:text="TextView" />
+
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

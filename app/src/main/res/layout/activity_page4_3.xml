@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context=".page4_3">
+
+    <Button
+        android:id="@+id/nnnext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="632dp"
+        android:text="แบบทดสอบ"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/backkk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="632dp"
+        android:layout_marginEnd="304dp"
+        android:text="Back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textVi4"
+        android:layout_width="265sp"
+        android:layout_height="55sp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/bt"
+        android:gravity="center"
+        android:text="ตัวอย่างคำทับศัพท์"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.411"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <RelativeLayout
+        android:id="@+id/la2"
+        android:layout_width="318dp"
+        android:layout_height="287dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="156dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_bias="0.6">
+
+        <TableLayout
+            android:id="@+id/tb_lay1"
+            android:layout_width="match_parent"
+            android:layout_height="373dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="-5dp">
+
+            <TableRow
+                android:id="@+id/tb10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:alwaysDrawnWithCache="true">
+
+                <TextView
+                    android:id="@+id/tet8"
+                    android:layout_width="92dp"
+                    android:layout_height="32sp"
+                    android:layout_marginEnd="3sp"
+                    android:background="@android:color/holo_blue_bright"
+                    android:gravity="center"
+                    android:text="คำ"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/background_dark" />
+
+                <TextView
+                    android:id="@+id/tex9"
+                    android:layout_width="100sp"
+                    android:layout_height="32sp"
+                    android:layout_marginEnd="3sp"
+                    android:background="@android:color/holo_blue_bright"
+                    android:gravity="center"
+                    android:text="คำเดิม"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_dark" />
+
+                <TextView
+                    android:id="@+id/tex10"
+                    android:layout_width="100sp"
+                    android:layout_height="32sp"
+                    android:background="@android:color/holo_blue_bright"
+                    android:gravity="center"
+                    android:text="ความหมาย"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_dark" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tb9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tex11"
+                    android:layout_width="80dp"
+                    android:layout_height="32sp"
+                    android:layout_marginEnd="3sp"
+                    android:background="@android:color/holo_blue_bright"
+                    android:gravity="center"
+                    android:text="เค้ก"
+                    android:textColor="@android:color/background_dark" />
+
+                <TextView
+                    android:id="@+id/tex12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32sp"
+                    android:layout_marginEnd="3sp"
+                    android:background="@android:color/holo_blue_bright"
+                    android:gravity="center"
+                    android:text="Cake"
+                    android:textColor="@android:color/background_dark" />
+
+                <TextView
+                    android:id="@+id/tex15"
+                    android:layout_width="107dp"
+                    android:layout_height="32sp"
+                    android:background="@android:color/holo_blue_bright"
+                    android:gravity="center"
+                    android:text="ของหวานชนิดหนึ่ง"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="12sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tb8"
+                android:layout_width="207dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="30sp">
+
+                <TextView
+                    android:id="@+id/tex14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32sp"
+                    android:layout_marginTop="8sp"
+                    android:background="@android:color/holo_blue_bright"
+                    android:gravity="center"
+                    android:text="ตัวอย่างประโยค"
+                    android:textColor="@android:color/background_dark" />
+
+                <TextView
+                    android:id="@+id/tex13"
+                    android:layout_width="101dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="8sp"
+                    android:background="@android:color/holo_blue_bright"
+                    android:gravity="center"
+                    android:text="ฉันชอบกินเค้ก"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="12dp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tb7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:alwaysDrawnWithCache="true">
+
+                <TextView
+                    android:id="@+id/tex2"
+                    android:layout_width="100sp"
+                    android:layout_height="32sp"
+                    android:layout_marginEnd="3sp"
+                    android:background="@android:color/holo_blue_bright"
+                    android:gravity="center"
+                    android:text="คำ"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_dark" />
+
+                <TextView
+                    android:id="@+id/tex3"
+                    android:layout_width="100sp"
+                    android:layout_height="32sp"
+                    android:layout_marginEnd="3sp"
+                    android:background="@android:color/holo_blue_bright"
+                    android:gravity="center"
+                    android:text="คำเดิม"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_dark" />
+
+                <TextView
+                    android:id="@+id/textVie6"
+                    android:layout_width="100sp"
+                    android:layout_height="32sp"
+                    android:background="@android:color/holo_blue_bright"
+                    android:gravity="center"
+                    android:text="ความหมาย"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_dark" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tb6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tex5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32sp"
+                    android:layout_marginEnd="3sp"
+                    android:background="@android:color/holo_blue_bright"
+                    android:gravity="center"
+                    android:text="อีเมล"
+                    android:textColor="@android:color/background_dark" />
+
+                <TextView
+                    android:id="@+id/tex6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32sp"
+                    android:layout_marginEnd="3sp"
+                    android:background="@android:color/holo_blue_bright"
+                    android:gravity="center"
+                    android:text="Email"
+                    android:textColor="@android:color/background_dark" />
+
+                <TextView
+                    android:id="@+id/tex7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32sp"
+                    android:background="@android:color/holo_blue_bright"
+                    android:gravity="center"
+                    android:text="จดหมายอิเล็กทรอนิกส์"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="12sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tb4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textVie14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32sp"
+                    android:layout_marginTop="8sp"
+                    android:background="@android:color/holo_blue_bright"
+                    android:gravity="center"
+                    android:text="ตัวอย่างประโยค"
+                    android:textColor="@android:color/background_dark" />
+
+                <TextView
+                    android:id="@+id/textVie13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32sp"
+                    android:layout_marginTop="8sp"
+                    android:background="@android:color/holo_blue_bright"
+                    android:gravity="center"
+                    android:text="เขาส่งอีเมลหากัน"
+                    android:textColor="@android:color/background_dark" />
+            </TableRow>
+
+        </TableLayout>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
